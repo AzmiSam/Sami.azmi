@@ -6,36 +6,56 @@
             Exercise 2 of WEB summer course
         </title>
         <link rel="stylesheet" href="CV.css"> 
-        <script> src="CV.js"</script>
+        <script src="CV.js"></script>
     </head> 
-    <body>
+    <body onload="change_text()">
         <div class="grid-container">
-            <div  class="item1"> 
+            <div id="Div1" class="item1"><h1>Sami azmi</h1></div>
+            <div class="item2">         
+            <div class="waviy">
+                <span style="--i:1">P</span>
+                <span style="--i:2">e</span>
+                <span style="--i:3">r</span>
+                <span style="--i:4">s</span>
+                <span style="--i:5">o</span>
+                <span style="--i:6">n</span>
+                <span style="--i:7">a</span>
+                <span style="--i:8">l</span>
+                <span style="--i:1"> </span>
+                <span style="--i:2">I</span>
+                <span style="--i:3">n</span>
+                <span style="--i:4">f</span>
+                <span style="--i:5">o</span>
+            </div></div>
+            <div class="item3"> <div class="waviy">
+                <span style="--i:1">B</span>
+                <span style="--i:2">u</span>
+                <span style="--i:3">s</span>
+                <span style="--i:4">i</span>
+                <span style="--i:5">n</span>
+                <span style="--i:6">e</span>
+                <span style="--i:7">s</span>
+                <span style="--i:8">s</span>
+                <span style="--i:1"> </span>
+                <span style="--i:2">I</span>
+                <span style="--i:3">n</span>
+                <span style="--i:4">f</span>
+                <span style="--i:5">o</span></div></div>
+            <div class="item4"> 
                 <div class="waviy">
-                    <span style="--i:1">S</span>
-                    <span style="--i:2">a</span>
-                    <span style="--i:3">m</span>
-                    <span style="--i:4">i</span>
-                    <span style="--i:5"> </span>
-                    <span style="--i:6">A</span>
-                    <span style="--i:7">z</span>
-                    <span style="--i:8">m</span>
-                    <span style="--i:9">i</span>
-                  </div>
-            </div>
-            <div class="item2"> <h2>Personal information</h2></div>
-            <div class="item3"> <h2>Work experience</h2></div>
-            <div class="item4"> <h2>Education</h2></div>
+                <span style="--i:1">E</span>
+                <span style="--i:2">d</span>
+                <span style="--i:3">u</span>
+                <span style="--i:4">c</span>
+                <span style="--i:5">a</span>
+                <span style="--i:6">t</span>
+                <span style="--i:7">i</span>
+                <span style="--i:8">o</span>
+                <span style="--i:1">n</span></div></div>
             <div class="item5"> 
                 <form> 
                     <h2> Make contact </h2> 
                     <p id="Headnote"> Fill in your information and we will make sure to get back to you</p>
-                    <script>
-                       function change_text(){
-                       document.getElementById("Headnote").innerHTML = "Please fill in your info and we will be in touch";
-                       }
-                       window.onload=change_text;
-                    </script>
                     <label for="fName"> First name:</label><br>
                     <input type="text" id="fNameC"><br>
                     <label for="fName"> Last name:</label><br>
